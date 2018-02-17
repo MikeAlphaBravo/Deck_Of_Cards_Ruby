@@ -43,7 +43,21 @@ If you have Atom installed and want to see the project structure run:
 
 `atom .` Otherwise...
 
+`irb -r ./deck.rb`
 
+create new deck:
+`deck = Deck.new`
+
+`deck.cards`
+to view all cards in the deck or
+`deck.cards.length`
+to see total cards in deck
+
+`deck.deal(1)`
+to be dealt a card or as many number of cards as you would like.
+
+`deck.shuffle`
+to shuffle existing stack at any point
 
 ## Known Bugs
 
