@@ -18,6 +18,6 @@ RSpec.describe Card do
     it "tests whether two cards are the same" do
       expect(card == card2).to be false
     end
-  end 
+  end
 
 end
