@@ -59,6 +59,11 @@ to be dealt a card or as many number of cards as you would like.
 `deck.shuffle`
 to shuffle existing stack at any point
 
+to install RPec for testing without a Gemfile present
+`gem install rspec`
+
+
+
 ## Known Bugs
 
 _If you find bugs please feel free to contact me to report them._
