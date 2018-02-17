@@ -1,7 +1,8 @@
 require './card'
 
 class Deck
-
+  attr_accessor :cards
+  
   def initialize
     @values = ['Ace', *(2..10), 'Jack', 'Queen', 'King']
     @suits = ['Clubs', 'Diamonds', 'Hearts', 'Spades']
@@ -16,4 +17,7 @@ class Deck
     @cards.shuffle!
   end
 
+  def shuffle
+    cards.shuffle!
+  end
 end
