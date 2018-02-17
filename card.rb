@@ -6,4 +6,7 @@ class Card
     @suit = suit
   end
 
+  def output_card
+    puts "The #{@value} of #{@suit}"
+  end
 end
