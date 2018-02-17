@@ -1,7 +1,11 @@
 require './deck'
 
 RSpec.describe Deck do
-  let(:deck) { Deck.new }
+  subject(:deck) { Deck.new }
+  let(:deck2) do
+    Deck.new([Card.new(:clubs, 3), Card.new(:diamonds, 4)])
+  end
+
 
   describe "initialize" do
     it "has 52 cards" do
