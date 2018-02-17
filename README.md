@@ -62,7 +62,7 @@ to shuffle existing stack at any point
 to install RPec for testing without a Gemfile present
 `gem install rspec`
 
-
+`rspec` to run tests
 
 ## Known Bugs
 
