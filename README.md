@@ -8,12 +8,14 @@
 
 _The goal of this app is to develop a deck of cards that has the ability by the user to be shuffled and drawn from and interactive via Terminal._
 
-_I started off by reviewing my JavaScript notes from my coursework and Googling some examples of solutions to this problem.  It has been some time since I worked in a basic file structure and I needed a refresher as to how to set up my file structure in JS, in the end I realized that Ruby was more what I was looking for to implement this efficiently and without a front end quickly._
+_I started off by reviewing my JavaScript notes from my coursework and Googling some examples of solutions to this problem.  It has been some time since I worked in a basic file structure and I needed a refresher as to how to set up my file structure in JS, in the end I realized that Ruby was more what I was looking for to implement this efficiently without a front end quickly._
 
 _My initial response to the challenge in sudo code is this:  
 To define what a 'card' is with a value and suit followed by filling out a 'deck'  
 Then I would loop through those cards to shuffle and present them  
 Followed by working on something to display them one by one to a user_
+
+_In the end the process went quickly in Ruby but I certainly utilized everything from Google to Stack Overflow for some of the details and sytax I haven't work with in some time but was a great challenge to get my head back into the game for base level problem solving after working in CMS's now for a while._
 
 ## User Stories
 
