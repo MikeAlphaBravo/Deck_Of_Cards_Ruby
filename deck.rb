@@ -13,6 +13,7 @@ class Deck
       end
     end
 
+    @cards.shuffle!
   end
 
 end
